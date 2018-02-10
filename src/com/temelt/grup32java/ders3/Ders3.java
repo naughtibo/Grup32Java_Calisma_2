@@ -12,9 +12,9 @@ public class Ders3 {
         System.out.println("Doğum Yiliniz :" + dogumYili);
     }
 
-    public void parametreliMethod2(int yas) {
+    public int dogumYiliHesaplama(int yas) {
         int mevcutYil = 2018;
         int dogumYili = mevcutYil - yas;
-        System.out.println("Doğum Yiliniz :" + dogumYili);
+        return dogumYili;
     }
 }

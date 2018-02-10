@@ -7,7 +7,5 @@ public class Ders3Ornek {
      */
     public void gitOrnek() {
         System.out.println("Git örneği");
-
-
     }
 }

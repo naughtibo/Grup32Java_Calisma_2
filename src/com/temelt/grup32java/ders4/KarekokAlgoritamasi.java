@@ -19,6 +19,7 @@ public class KarekokAlgoritamasi {
         int farkMiktari=1;
         int toplam=0;
         System.out.println(Math.sqrt(girilenDeger));
+
         for (int i=0;i<girilenDeger;i++){
             toplam = toplam +farkMiktari;
             if(girilenDeger<toplam){

@@ -1,18 +1,13 @@
 package com.temelt.grup32java;
 
-import com.temelt.grup32java.ders3.BasitIfYapisi;
-import com.temelt.grup32java.ders3.Ders3;
-import com.temelt.grup32java.ders4.Ders4;
-import com.temelt.grup32java.ders4.ForDongusu;
 import com.temelt.grup32java.ders4.KarekokAlgoritamasi;
-
-import java.util.Scanner;
+import com.temelt.grup32java.ders4.KullaniciIslemleri;
 
 public class Uygulama {
 
     public static void main(String[] args) {
-        KarekokAlgoritamasi forDongusu =new KarekokAlgoritamasi();
-        forDongusu.tamKarekokBulma();
+        KullaniciIslemleri ref =new KullaniciIslemleri();
+        ref.giris();
 
     }
 

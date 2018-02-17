@@ -2,14 +2,15 @@ package com.temelt.grup32java;
 
 import com.temelt.grup32java.ders4.KarekokAlgoritamasi;
 import com.temelt.grup32java.ders4.KullaniciIslemleri;
+import com.temelt.grup32java.ders5.OrtalamaHesaplama;
 import com.temelt.grup32java.ders5.SayiTahminOyunu;
 
 public class Uygulama {
 
     public static void main(String[] args) {
 
-        SayiTahminOyunu sayiTahminOyunu =new SayiTahminOyunu();
-        sayiTahminOyunu.kullaniciGiris();
+        OrtalamaHesaplama ortalamaHesaplama=new OrtalamaHesaplama();
+        ortalamaHesaplama.ondanBuyukOlanlar();
 
     }
 

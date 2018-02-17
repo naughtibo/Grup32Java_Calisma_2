@@ -2,12 +2,14 @@ package com.temelt.grup32java;
 
 import com.temelt.grup32java.ders4.KarekokAlgoritamasi;
 import com.temelt.grup32java.ders4.KullaniciIslemleri;
+import com.temelt.grup32java.ders5.SayiTahminOyunu;
 
 public class Uygulama {
 
     public static void main(String[] args) {
-        KullaniciIslemleri ref =new KullaniciIslemleri();
-        ref.giris();
+
+        SayiTahminOyunu sayiTahminOyunu =new SayiTahminOyunu();
+        sayiTahminOyunu.kullaniciGiris();
 
     }
 
@@ -29,4 +31,7 @@ public class Uygulama {
  BasitIfYapisi basitIfYapisi =new BasitIfYapisi();
  basitIfYapisi.basitIfYapisi(t);
 
+
+ KullaniciIslemleri ref =new KullaniciIslemleri();
+ ref.giris();
  */

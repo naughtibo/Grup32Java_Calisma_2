@@ -5,13 +5,15 @@ import com.temelt.grup32java.ders4.KullaniciIslemleri;
 import com.temelt.grup32java.ders5.OrtalamaHesaplama;
 import com.temelt.grup32java.ders5.SayiTahminOyunu;
 import com.temelt.grup32java.ders6.Diziler;
+import com.temelt.grup32java.ders6.Sifreleme;
 
 public class Uygulama {
 
     public static void main(String[] args) {
 
-        Diziler diziler = new Diziler();
-        diziler.hastaneUygulama();
+        Sifreleme sifreleme = new Sifreleme();
+
+        System.out.println(sifreleme.dec("bnj"));
     }
 }
 
